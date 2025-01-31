@@ -1,0 +1,36 @@
+/* Steve Stylin
+bioSite 
+*/
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color: rgb(8, 74, 14);
+    text-align: center;
+    padding: 20px;
+}
+
+.menu {
+    background-color: darkgrey;
+    align-items:normal
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    margin: 10px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
