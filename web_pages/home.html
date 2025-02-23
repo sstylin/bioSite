@@ -1,0 +1,97 @@
+<!-- home.html -->
+<!---Steve Stylin Biosite of Michele Patrick modify after peer review--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>BioSite of Michel Patrick Mathurin</title>
+    <h1>Michel Patrick Mathurin</h1>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Welcome</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="c:\csd\csd-340\index.html">Landing Page</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <blockquote class="centered">
+            "As an electromechanical engineer in Haiti, I believe in harnessing our innovation and resilience to power not just homes but hopes. Each project I undertake is not just about electricity; it is about creating a brighter future for my community and advancing our country's potential."
+        </blockquote>
+        <div class="grid-container">
+            <div class="left">
+                <img src="image/Pat.jpg" alt="Portrait of Patrick" width="360" height="360" class="portrait">
+            </div>
+            <div class="center">
+                <p>I was born in 1967 in the vibrant coastal town of Cabaret, Haiti. Nestled in the Arcahaie Arrondissement of the Ouest department, Cabaret is a picturesque commune known for its rich culture and stunning landscapes.</p>
+                <p>As a devoted music lover, my heart swells with joy whenever I attend a concert by my favorite band, Tropicana, eagerly making it a point to attend every gala they host during their tours in Haiti.</p>
+            </div>
+            <div class="right">
+                <button class="image-button" onclick="toggleImages()">View Favorite Places</button>
+                <div id="image-table" style="display:none;">
+                    <table>
+                        <tr>
+                            <td>
+                                <div class="image-container">
+                                    <a href="https://fr.wikipedia.org/wiki/Citadelle_La_Ferri%C3%A8re" target="_blank">
+                                        <img src="image/2-Laferriere.jpg" alt="Laférrièe" width="200" height="150" class="favorite-place">
+                                        <div class="caption">Laferrière</div>
+                                    </a>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="image-container">
+                                    <a href="https://en.wikipedia.org/wiki/Sans-Souci_Palace" target="_blank">
+                                        <img src="image/3-san-soucis.jpg" alt="Sans-Soucis Palace" width="200" height="150" class="favorite-place">
+                                        <div class="caption">San Souci</div>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="image-container">
+                                    <a href="https://en.wikipedia.org/wiki/Mus%C3%A9e_du_Panth%C3%A9on_National_Ha%C3%AFtien" target="_blank">
+                                        <img src="image/4-muse_pantheon.jpg" alt="Pantheon Museum" width="200" height="150" class="favorite-place">
+                                        <div class="caption">Musee Pantheon</div>
+                                    </a>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="image-container">
+                                    <a href="https://en.wikipedia.org/wiki/Bassin_Bleu_(Jacmel)" target="_blank">
+                                        <img src="image/5-bassin-bleu.jpg" alt="Bassin Bleu" width="200" height="150" class="favorite-place">
+                                        <div class="caption">Bassin Bleu</div>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p style="color: white;">&copy; 2025 Michel Patrick Mathurin  <a href="https://sstylin.github.io/bioSite/" target="_blank" style="color: rgb(132, 182, 125);">View on GitHub</a> </p>
+    </footer>
+
+    <script>
+        function toggleImages() {
+            var table = document.getElementById("image-table");
+            if (table.style.display === "none") {
+                table.style.display = "block";
+            } else {
+                table.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+
+<!---Steve Stylin Biosite of Michele Patrick moddify after peer review--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>BioSite of Michel Patrick Mathurin</title>
+    <h1>Michel Patrick Mathurin</h1>
+    
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Welcome</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="c:\csd\csd-340\index.html">Landing Page</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="grid-container">
+        <div class="top-table">
+            <h2>Introduction</h2>
+            <p>My name is Michel Patrick Mathurin, and I am passionate about the energy sector...</p>
+        </div>
+        <div class="left-column">
+            <h3>Interview Questions and Answers</h3>
+            <ul>
+                <li>Can you tell us about your background and how you ended up in the energy sector?
+                    <br>I was born and raised in Cabaret, Haiti, where I developed a love for my country's natural resources. My interest in mechanics and energy started in school, leading me to pursue a degree in mechanical engineering.</li>
+                <li>What inspired you to choose mechanical engineering as your career path?
+                    <br>I have always been fascinated by how things work, and I enjoy solving complex problems.</li>
+                <li>How did your journey at Electricity of Haiti begin?
+                    <br>I joined Electricity of Haiti while completing my degree. I was motivated by the opportunity to contribute to my country's development and improve energy access for our communities.</li>
+                <li>What motivated you to become the production director at Electricity of Haiti?
+                    <br>I wanted to ensure we implement sustainable solutions to enhance energy efficiency and reliability.</li>
+                <li>What are some of the challenges you face as a production director?
+                    <br>One of the primary challenges is managing limited resources while meeting the growing demand for electricity.</li>
+            </ul>
+        </div>
+        <div class="right-column">
+            <h3>Additional Interview Questions</h3>
+            <ul>
+                <li>Why did you choose to work for Electricity of Haiti instead of a private company that may offer higher pay?
+                    <br>Serving my country and contributing to its development far outweighs financial considerations.</li>
+                <li>How do you envision the future of energy in Haiti?
+                    <br>I envision a future where Haiti leverages renewable energy sources, such as solar and wind, to achieve energy independence.</li>
+                <li>What advice would you give to young Haitians interested in pursuing a career in engineering?
+                    <br>I encourage them to stay curious and never stop learning.</li>
+                <li>What are some initiatives you are currently working on at Electricity of Haiti?
+                    <br>We are focusing on upgrading our facilities and investing in technology that improves energy production efficiency.</li>
+                <li>How do you stay motivated in such a demanding role?
+                    <br>Every improvement we make in energy access and production encourages me to keep pushing forward, knowing that our work has a direct impact on people's lives.</li>
+            </ul>
+        </div>
+        <div class="image-container">
+            <h3>Patrick at work</h3>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="image/pat_andress_president.jpg" style="width:100%; height: auto;" />
+                </div>
+                <div class="mySlides fade">
+                    <img src="image/pat_as_director.jpg" style="width:100%; height: auto;" />
+                </div>
+                <div class="mySlides fade">
+                    <img src="image/pat_colaboration.jpg" style="width:100%; height: auto;" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p style="color: white;">&copy; 2025 Michel Patrick Mathurin  <a href="https://sstylin.github.io/bioSite/" target="_blank" style="color: rgb(132, 182, 125);">View on GitHub</a> </p>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            slides[slideIndex-1].style.display = "block";  
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+</body>
+</html>
